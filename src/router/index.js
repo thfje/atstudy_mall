@@ -3,7 +3,8 @@ import {createRouter,createWebHistory} from 'vue-router'
 
 import Home from '@/views/Home.vue'
 import CourseList from '@/views/CourseList.vue'
-const routes = [{
+const routes = [
+	{
 		path: '/course_list',
 		name: 'CourseList',
 		component: CourseList
@@ -14,7 +15,6 @@ const routes = [{
 		component: Home
 
 	},
-
 ]
 
 const router = createRouter({
